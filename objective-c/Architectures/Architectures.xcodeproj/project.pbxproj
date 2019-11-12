@@ -15,6 +15,9 @@
 		FB7ED120237B51D30041329F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7ED11F237B51D30041329F /* main.m */; };
 		FB7ED12A237B51D30041329F /* ArchitecturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7ED129237B51D30041329F /* ArchitecturesTests.m */; };
 		FB7ED136237B522B0041329F /* rpg-characters.json in Resources */ = {isa = PBXBuildFile; fileRef = FB7ED135237B522B0041329F /* rpg-characters.json */; };
+		FB7ED140237B537C0041329F /* CharactersListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7ED13F237B537C0041329F /* CharactersListViewController.m */; };
+		FB7ED144237B606E0041329F /* CharacterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7ED142237B606E0041329F /* CharacterTableViewCell.m */; };
+		FB7ED145237B606E0041329F /* CharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB7ED143237B606E0041329F /* CharacterTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,11 @@
 		FB7ED129237B51D30041329F /* ArchitecturesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchitecturesTests.m; sourceTree = "<group>"; };
 		FB7ED12B237B51D30041329F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB7ED135237B522B0041329F /* rpg-characters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "rpg-characters.json"; sourceTree = "<group>"; };
+		FB7ED13E237B537C0041329F /* CharactersListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharactersListViewController.h; sourceTree = "<group>"; };
+		FB7ED13F237B537C0041329F /* CharactersListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharactersListViewController.m; sourceTree = "<group>"; };
+		FB7ED141237B606E0041329F /* CharacterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharacterTableViewCell.h; sourceTree = "<group>"; };
+		FB7ED142237B606E0041329F /* CharacterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharacterTableViewCell.m; sourceTree = "<group>"; };
+		FB7ED143237B606E0041329F /* CharacterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,7 @@
 		FB7ED10F237B51D10041329F /* Architectures */ = {
 			isa = PBXGroup;
 			children = (
+				FB7ED13D237B536B0041329F /* CharactersList */,
 				FB7ED134237B52160041329F /* Repository */,
 				FB7ED110237B51D10041329F /* AppDelegate.h */,
 				FB7ED111237B51D10041329F /* AppDelegate.m */,
@@ -112,6 +121,18 @@
 				FB7ED135237B522B0041329F /* rpg-characters.json */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		FB7ED13D237B536B0041329F /* CharactersList */ = {
+			isa = PBXGroup;
+			children = (
+				FB7ED13E237B537C0041329F /* CharactersListViewController.h */,
+				FB7ED13F237B537C0041329F /* CharactersListViewController.m */,
+				FB7ED141237B606E0041329F /* CharacterTableViewCell.h */,
+				FB7ED142237B606E0041329F /* CharacterTableViewCell.m */,
+				FB7ED143237B606E0041329F /* CharacterTableViewCell.xib */,
+			);
+			path = CharactersList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +217,7 @@
 			files = (
 				FB7ED11D237B51D30041329F /* LaunchScreen.storyboard in Resources */,
 				FB7ED136237B522B0041329F /* rpg-characters.json in Resources */,
+				FB7ED145237B606E0041329F /* CharacterTableViewCell.xib in Resources */,
 				FB7ED11A237B51D30041329F /* Assets.xcassets in Resources */,
 				FB7ED118237B51D10041329F /* Main.storyboard in Resources */,
 			);
@@ -215,6 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7ED144237B606E0041329F /* CharacterTableViewCell.m in Sources */,
+				FB7ED140237B537C0041329F /* CharactersListViewController.m in Sources */,
 				FB7ED115237B51D10041329F /* ViewController.m in Sources */,
 				FB7ED120237B51D30041329F /* main.m in Sources */,
 				FB7ED112237B51D10041329F /* AppDelegate.m in Sources */,
