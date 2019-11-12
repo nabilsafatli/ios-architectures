@@ -14,6 +14,7 @@
 		FB7ED11D237B51D30041329F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7ED11B237B51D30041329F /* LaunchScreen.storyboard */; };
 		FB7ED120237B51D30041329F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7ED11F237B51D30041329F /* main.m */; };
 		FB7ED12A237B51D30041329F /* ArchitecturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7ED129237B51D30041329F /* ArchitecturesTests.m */; };
+		FB7ED136237B522B0041329F /* rpg-characters.json in Resources */ = {isa = PBXBuildFile; fileRef = FB7ED135237B522B0041329F /* rpg-characters.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		FB7ED125237B51D30041329F /* ArchitecturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitecturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7ED129237B51D30041329F /* ArchitecturesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchitecturesTests.m; sourceTree = "<group>"; };
 		FB7ED12B237B51D30041329F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7ED135237B522B0041329F /* rpg-characters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "rpg-characters.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		FB7ED10F237B51D10041329F /* Architectures */ = {
 			isa = PBXGroup;
 			children = (
+				FB7ED134237B52160041329F /* Repository */,
 				FB7ED110237B51D10041329F /* AppDelegate.h */,
 				FB7ED111237B51D10041329F /* AppDelegate.m */,
 				FB7ED113237B51D10041329F /* ViewController.h */,
@@ -101,6 +104,14 @@
 				FB7ED12B237B51D30041329F /* Info.plist */,
 			);
 			path = ArchitecturesTests;
+			sourceTree = "<group>";
+		};
+		FB7ED134237B52160041329F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				FB7ED135237B522B0041329F /* rpg-characters.json */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB7ED11D237B51D30041329F /* LaunchScreen.storyboard in Resources */,
+				FB7ED136237B522B0041329F /* rpg-characters.json in Resources */,
 				FB7ED11A237B51D30041329F /* Assets.xcassets in Resources */,
 				FB7ED118237B51D10041329F /* Main.storyboard in Resources */,
 			);
