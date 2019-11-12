@@ -18,6 +18,9 @@
 		FB7ED140237B537C0041329F /* CharactersListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7ED13F237B537C0041329F /* CharactersListViewController.m */; };
 		FB7ED144237B606E0041329F /* CharacterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7ED142237B606E0041329F /* CharacterTableViewCell.m */; };
 		FB7ED145237B606E0041329F /* CharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB7ED143237B606E0041329F /* CharacterTableViewCell.xib */; };
+		FB7ED148237B65B90041329F /* CharactersService.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7ED147237B65B90041329F /* CharactersService.m */; };
+		FB7ED14B237B65E30041329F /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7ED14A237B65E30041329F /* Character.m */; };
+		FB7ED14F237B676B0041329F /* InventoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7ED14E237B676B0041329F /* InventoryItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,12 @@
 		FB7ED141237B606E0041329F /* CharacterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharacterTableViewCell.h; sourceTree = "<group>"; };
 		FB7ED142237B606E0041329F /* CharacterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharacterTableViewCell.m; sourceTree = "<group>"; };
 		FB7ED143237B606E0041329F /* CharacterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterTableViewCell.xib; sourceTree = "<group>"; };
+		FB7ED146237B65B90041329F /* CharactersService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharactersService.h; sourceTree = "<group>"; };
+		FB7ED147237B65B90041329F /* CharactersService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharactersService.m; sourceTree = "<group>"; };
+		FB7ED149237B65E30041329F /* Character.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		FB7ED14A237B65E30041329F /* Character.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		FB7ED14D237B676B0041329F /* InventoryItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InventoryItem.h; sourceTree = "<group>"; };
+		FB7ED14E237B676B0041329F /* InventoryItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InventoryItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +100,7 @@
 		FB7ED10F237B51D10041329F /* Architectures */ = {
 			isa = PBXGroup;
 			children = (
+				FB7ED14C237B65EC0041329F /* Model */,
 				FB7ED13D237B536B0041329F /* CharactersList */,
 				FB7ED134237B52160041329F /* Repository */,
 				FB7ED110237B51D10041329F /* AppDelegate.h */,
@@ -131,8 +141,21 @@
 				FB7ED141237B606E0041329F /* CharacterTableViewCell.h */,
 				FB7ED142237B606E0041329F /* CharacterTableViewCell.m */,
 				FB7ED143237B606E0041329F /* CharacterTableViewCell.xib */,
+				FB7ED146237B65B90041329F /* CharactersService.h */,
+				FB7ED147237B65B90041329F /* CharactersService.m */,
 			);
 			path = CharactersList;
+			sourceTree = "<group>";
+		};
+		FB7ED14C237B65EC0041329F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB7ED149237B65E30041329F /* Character.h */,
+				FB7ED14A237B65E30041329F /* Character.m */,
+				FB7ED14D237B676B0041329F /* InventoryItem.h */,
+				FB7ED14E237B676B0041329F /* InventoryItem.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,10 +261,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB7ED144237B606E0041329F /* CharacterTableViewCell.m in Sources */,
+				FB7ED14B237B65E30041329F /* Character.m in Sources */,
+				FB7ED148237B65B90041329F /* CharactersService.m in Sources */,
 				FB7ED140237B537C0041329F /* CharactersListViewController.m in Sources */,
 				FB7ED115237B51D10041329F /* ViewController.m in Sources */,
 				FB7ED120237B51D30041329F /* main.m in Sources */,
 				FB7ED112237B51D10041329F /* AppDelegate.m in Sources */,
+				FB7ED14F237B676B0041329F /* InventoryItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

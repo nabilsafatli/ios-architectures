@@ -8,6 +8,7 @@
 
 #import "CharactersListViewController.h"
 #import "CharacterTableViewCell.h"
+#import "CharactersService.h"
 
 @interface CharactersListViewController ()
 @property (strong, nonatomic) IBOutlet UITableView *charactersTableView;
@@ -15,11 +16,14 @@
 @end
 
 @implementation CharactersListViewController
+CharactersService *service;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.charactersTableView registerNib:[UINib nibWithNibName:@"CharacterTableViewCell" bundle:nil] forCellReuseIdentifier:@"CharacterTableViewCell"];
+
+    service = [CharactersService new];
 }
 
 /*
@@ -34,14 +38,14 @@
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     CharacterTableViewCell *cell = [self.charactersTableView dequeueReusableCellWithIdentifier:@"CharacterTableViewCell"];
-    
-    cell.nameLabel.text = @"Lodder Wolfer";
+    Character *character = [[service getAll] objectAtIndex:indexPath.row];
+    cell.nameLabel.text = character.name;
     cell.classLabel.text = @"Warrior";
     return cell;
 }
 
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
+    return [service getAll].count;
 }
 
 @end
