@@ -10,7 +10,3 @@ final class CharactersService: CharacterServiceProtocol {
         completion(characters)
     }
 }
-
-struct Character {
-    var name: String
-}

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FB2D142B23887E4400F1DCC0 /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D142A23887E4400F1DCC0 /* MyCustomTableViewCell.swift */; };
 		FBA2C6CE2389A20D002A3713 /* CharactersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2C6CD2389A20D002A3713 /* CharactersService.swift */; };
+		FBA2C6D22389A20D002A3713 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2C6D12389A20D002A3713 /* Character.swift */; };
 		FBE2AF2A238496F000D9B618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2AF29238496F000D9B618 /* AppDelegate.swift */; };
 		FBE2AF2C238496F000D9B618 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2AF2B238496F000D9B618 /* SceneDelegate.swift */; };
 		FBE2AF2E238496F000D9B618 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2AF2D238496F000D9B618 /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		FB2D142A23887E4400F1DCC0 /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
 		FBA2C6CD2389A20D002A3713 /* CharactersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersService.swift; sourceTree = "<group>"; };
+		FBA2C6D12389A20D002A3713 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		FBE2AF26238496F000D9B618 /* mvvm-rxswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvvm-rxswift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE2AF29238496F000D9B618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBE2AF2B238496F000D9B618 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FBA2C6CF2389A20D002A3713 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FBA2C6CD2389A20D002A3713 /* CharactersService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FBA2C6D02389A20D002A3713 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FBA2C6D12389A20D002A3713 /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FBA2C6D32389A20D002A3713 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 		FBE2AF1D238496EF00D9B618 = {
 			isa = PBXGroup;
 			children = (
@@ -83,10 +108,12 @@
 		FBE2AF28238496F000D9B618 /* mvvm-rxswift */ = {
 			isa = PBXGroup;
 			children = (
+				FBA2C6D32389A20D002A3713 /* Repository */,
+				FBA2C6D02389A20D002A3713 /* Model */,
+				FBA2C6CF2389A20D002A3713 /* Service */,
 				FBE2AF29238496F000D9B618 /* AppDelegate.swift */,
 				FBE2AF2B238496F000D9B618 /* SceneDelegate.swift */,
 				FB2D142A23887E4400F1DCC0 /* MyCustomTableViewCell.swift */,
-				FBA2C6CD2389A20D002A3713 /* CharactersService.swift */,
 				FBE2AF2D238496F000D9B618 /* ViewController.swift */,
 				FBE2AF2F238496F000D9B618 /* Main.storyboard */,
 				FBE2AF32238496F100D9B618 /* Assets.xcassets */,
@@ -209,6 +236,7 @@
 				FBE2AF2E238496F000D9B618 /* ViewController.swift in Sources */,
 				FBE2AF2A238496F000D9B618 /* AppDelegate.swift in Sources */,
 				FB2D142B23887E4400F1DCC0 /* MyCustomTableViewCell.swift in Sources */,
+				FBA2C6D22389A20D002A3713 /* Character.swift in Sources */,
 				FBE2AF2C238496F000D9B618 /* SceneDelegate.swift in Sources */,
 				FBA2C6CE2389A20D002A3713 /* CharactersService.swift in Sources */,
 			);
