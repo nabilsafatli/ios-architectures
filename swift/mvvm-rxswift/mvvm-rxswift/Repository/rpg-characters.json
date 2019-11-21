@@ -1,0 +1,52 @@
+{
+  "characters": [
+    {
+      "name": "Lodder Wolfer",
+      "color": "#82b92c",
+      "age": 26,
+      "profession": "Warrior",
+      "inventory_items": [
+        {
+          "type": "weapon",
+          "name": "Sword"
+        },
+        {
+          "type": "shield",
+          "name": "Tower Shield"
+        }
+      ]
+    },
+    {
+      "name": "Meeck Wolfer",
+      "color": "#82b92c",
+      "age": 21,
+      "profession": "Wizard",
+      "inventory_items": [
+        {
+          "type": "weapon",
+          "name": "Aerial Staff"
+        },
+        {
+          "type": "shield",
+          "name": null
+        }
+      ]
+    },
+    {
+      "name": "Jack Voorhees",
+      "color": "#82b92c",
+      "age": 27,
+      "profession": "Ranger",
+      "inventory_items": [
+        {
+          "type": "weapon",
+          "name": "Bow of Death"
+        },
+        {
+          "type": "shield",
+          "name": null
+        }
+      ]
+    },
+  ]
+}

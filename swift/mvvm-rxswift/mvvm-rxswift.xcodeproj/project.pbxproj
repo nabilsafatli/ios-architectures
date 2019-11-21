@@ -10,6 +10,7 @@
 		FB2D142B23887E4400F1DCC0 /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2D142A23887E4400F1DCC0 /* MyCustomTableViewCell.swift */; };
 		FBA2C6CE2389A20D002A3713 /* CharactersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2C6CD2389A20D002A3713 /* CharactersService.swift */; };
 		FBA2C6D22389A20D002A3713 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2C6D12389A20D002A3713 /* Character.swift */; };
+		FBA2C6D72389A20D002A3713 /* rpg-characters.json in Resources */ = {isa = PBXBuildFile; fileRef = FBA2C6D62389A20D002A3713 /* rpg-characters.json */; };
 		FBE2AF2A238496F000D9B618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2AF29238496F000D9B618 /* AppDelegate.swift */; };
 		FBE2AF2C238496F000D9B618 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2AF2B238496F000D9B618 /* SceneDelegate.swift */; };
 		FBE2AF2E238496F000D9B618 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE2AF2D238496F000D9B618 /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 		FB2D142A23887E4400F1DCC0 /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
 		FBA2C6CD2389A20D002A3713 /* CharactersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersService.swift; sourceTree = "<group>"; };
 		FBA2C6D12389A20D002A3713 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		FBA2C6D62389A20D002A3713 /* rpg-characters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "rpg-characters.json"; sourceTree = "<group>"; };
 		FBE2AF26238496F000D9B618 /* mvvm-rxswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvvm-rxswift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE2AF29238496F000D9B618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBE2AF2B238496F000D9B618 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		FBA2C6D32389A20D002A3713 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				FBA2C6D62389A20D002A3713 /* rpg-characters.json */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBE2AF36238496F100D9B618 /* LaunchScreen.storyboard in Resources */,
+				FBA2C6D72389A20D002A3713 /* rpg-characters.json in Resources */,
 				FBE2AF33238496F100D9B618 /* Assets.xcassets in Resources */,
 				FBE2AF31238496F000D9B618 /* Main.storyboard in Resources */,
 			);
