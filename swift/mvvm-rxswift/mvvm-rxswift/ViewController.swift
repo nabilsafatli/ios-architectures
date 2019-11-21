@@ -12,8 +12,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "MyCustomTableViewCell", for: indexPath) as? MyCustomTableViewCell else {
-            preconditionFailure("\(MyCustomTableViewCell.self) not found")
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "CharacterTableViewCell", for: indexPath) as? CharacterTableViewCell else {
+            preconditionFailure("\(CharacterTableViewCell.self) not found")
         }
         cell.profileImageView?.image = UIImage(named: "archer")
         cell.labelTitle?.text = "Archer"

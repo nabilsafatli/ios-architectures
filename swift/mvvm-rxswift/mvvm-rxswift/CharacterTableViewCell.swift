@@ -1,6 +1,6 @@
 import UIKit
 
-class MyCustomTableViewCell: UITableViewCell {
+class CharacterTableViewCell: UITableViewCell {
     @IBOutlet weak var labelTitle: UILabel!
     @IBOutlet weak var profileImageView: UIImageView!
     
