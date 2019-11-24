@@ -1,15 +1,15 @@
 //
-//  mvvm_rxswiftTests.swift
-//  mvvm-rxswiftTests
+//  RolePlayingGameTests.swift
+//  RolePlayingGameTests
 //
 //  Created by Nabil Safatli on 2019-11-19.
 //  Copyright © 2019 Nabil Safatli. All rights reserved.
 //
 
 import XCTest
-@testable import mvvm_rxswift
+@testable import RolePlayingGame
 
-class mvvm_rxswiftTests: XCTestCase {
+class RolePlayingGameTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
